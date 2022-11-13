@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Victor">
+    <meta name="description" content="Site treino para html css e javascript">
+    <meta name="keywords" content="html,css,javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/normalize.css">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <img src="Imagens/$62ecpjgwm4.png" alt="logo">
+    </header>
+
+    <main class="main">
+        <article class="main_introduçao">
+            <h1 class="main_titulo">[Ebook] guia do HTML e <br> CSS</h1>
+            <p class="main_apresentaçao">Dê seus primeiros passos com 
+            <br> desenvolvimento Web e aprenda a criar 
+            <br> uma pagina do ZERO</p>
+        </article>
+
+        <div class="img_html_css">
+            <img src="Imagens/GUIA-HTML-CSS.png" alt="">
+        </div>
+
+        <form action="www.google.com" method="post" class="form">
+            <h3 class="form_titulo_download">Faça o download grátis aqui</h3>
+            <p class="form_titulo_prencher">Preencha o formulario abaixo para acessar o ebook</p>
+
+            <label for="email">Email*</label>
+            <input type="text" id="email" required>
+            
+            <p>Quais são as suas áreas de intesse?</p>
+            <label class="form_interesses"><input type="checkbox">  Primeiros Passos para TI</label> 
+            <label class="form_interesses"><input type="checkbox">  Data Science</label>
+            <label class="form_interesses"><input type="checkbox">  desenvolvimento front-end</label>
+            <label class="form_interesses"><input type="checkbox">   desenvolvimento back-end</label>   
+            <label class="form_interesses"><input type="checkbox">  desenvolvimento full-stack</label>
+            <label class="form_interesses"><input type="checkbox">  desenvolvimento com oracle APEX</label>  
+            <label class="form_interesses"><input type="checkbox">  Metodoligas ágeis</label>
+            <label class="form_interesses"><input type="checkbox">  Analise de negocio</label>
+            <label class="form_interesses"><input type="checkbox">  Teste de Software e Automação de Testes</label>
+            <label class="form_interesses"><input type="checkbox">  Banco de Dados Oracle</label>
+            <label class="form_interesses"><input type="checkbox">  Data Analytics</label>
+            <label class="form_interesses"><input type="checkbox">  Java developer</label>
+            
+            <label for="matematica" class="form_matematica"></label>
+            <input type="text" id="matematica" required>
+            <label><input type="checkbox" required>  Eu concordo em receber comunicações</label>
+
+            <p class="form_politica_de_privacidade">Ao informar meus dados, eu concordo com a <br><a href="#">Politica de Privacidade</a></p>  
+
+            <input type="submit" value="Acessar o ebook agora!" class="form_enviar">
+        </form>
+    </main>
+    <script src="script/index.js"></script>
+</body>
+</html>
