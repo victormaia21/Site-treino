@@ -69,3 +69,36 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
+.section{
+    display: grid;
+    justify-content: center;
+
+}
+.seçao{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+}
+.img{
+    display: grid;
+    justify-content: center;
+}
+.article{
+    text-align: center;
+}
+.article h3{
+    font-weight: normal;
+    word-spacing: .1em;
+    color: #444;
+}
+.article p{
+    color: #444;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-size: .9em;
+    color: #444;
+}
